@@ -16,6 +16,8 @@
 
 Provides Javascript animated SVGs that support the standard flight indicators for heading, speed, altitude, pitch and roll, vertical speed and turn. In addition, helicopter-specific flight parameter indicators are available for stick positioning, pedal positioning and the angle of the collective lever. 
 
+Owner & Author: https://github.com/je-an/
+
 ## Installation
 
 This package doesn't exist in npmjs repository anymore and also gathering dependencies to run the app was a pain. So I gathered required dependecies from author repository and merged it into currect directory. So you can easily install it form my git repository.
