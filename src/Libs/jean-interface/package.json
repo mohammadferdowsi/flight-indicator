@@ -1,0 +1,21 @@
+{
+  "name": "jean-interface",
+  "version": "1.1.0",
+  "description": "Provides functionality for an object orientated interface mechanism",
+  "main": "dist/jean-interface.js",
+  "scripts": {
+    "test": "open spec/spec-runner.html in browser"
+  },
+  "keywords": [],
+  "author": "Jeremias Andris",
+  "license": "MIT",
+  "dependencies": {
+    "jean-amd": "1.0.1",
+    "jean-failure": "^1.0.0",
+    "jean-type-check": "1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/je-an/jean-interface.git"
+  }
+}

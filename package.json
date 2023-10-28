@@ -1,0 +1,20 @@
+{
+  "name": "flight-indicator",
+  "version": "1.0.0",
+  "description": "Provides Javascript animated SVGs that support the standard flight indicators for heading, speed, altitude, pitch and roll, vertical speed and turn. In addition, helicopter-specific flight parameter indicators are available for stick positioning, pedal positioning and the angle of the collective lever",
+  "main": "dist/flight-indicator.js",
+  "scripts": {
+    "build:win": "r.js.cmd -o build.js"
+  },
+  "keywords": [],
+  "author": "Jeremias Andris",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohammadferdowsi/flight-indicator.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "requirejs": "^2.3.6",
+    "requirejs-text": "^2.0.16"
+  }
+}

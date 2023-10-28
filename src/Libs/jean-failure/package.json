@@ -1,0 +1,19 @@
+{
+  "name": "jean-failure",
+  "version": "1.0.1",
+  "description": "Provides error throwing functionality",
+  "main": "dist/jean-failure.js",
+  "scripts": {
+    "test": "open spec/spec-runner.html in browser"
+  },
+  "keywords": [],
+  "author": "Jeremias Andris",
+  "license": "MIT",
+  "dependencies": {
+    "jean-amd": "1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/je-an/jean-failure.git"
+  }
+}

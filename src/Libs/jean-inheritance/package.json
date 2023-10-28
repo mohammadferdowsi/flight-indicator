@@ -1,0 +1,20 @@
+{
+  "name": "jean-inheritance",
+  "version": "1.0.4",
+  "description": "Provides functionality for inheriting constructor and prototype values and methods",
+  "main": "dist/jean-inheritance.js",
+  "scripts": {
+    "test": "open spec/spec-runner.html in browser"
+  },
+  "keywords": [],
+  "author": "Jeremias Andris",
+  "license": "MIT",
+  "dependencies": {
+    "jean-amd": "1.0.1",
+    "jean-type-check": "1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/je-an/jean-inheritance.git"
+  }
+}

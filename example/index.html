@@ -1,0 +1,115 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Flight Indicators</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #stick-module,
+        #pedal-module,
+        #collective-module {
+            width: 100%;
+            text-align: center;
+        }
+
+        #cm-svg,
+        #compass-svg,
+        #stick-svg,
+        #pedal-svg,
+        #collective-svg {
+            width: 100%;
+        }
+
+        .row-top {
+            margin-top: 50px;
+        }
+
+        .row-standard {
+            margin-top: 15px;
+        }
+
+        .jean-navbar {
+            z-index: 100;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #40CAB4;
+            font-weight: bold;
+            font-family: "Calibri";
+        }
+    </style>
+</head>
+
+<body>
+    <section id="jean-navbar-container"></section>
+
+    <div class="container-fluid">
+        <div class="row row-top">
+            <div class="col-md-offset-4 col-md-4">
+                <h1>Standard </h1>
+            </div>
+        </div>
+        <div class="row row-standard">
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <h2> Heading </h2>
+                <div id="heading-container"></div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <h2> Speed </h2>
+                <div id="speed-container"></div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <h2> Altitude </h2>
+                <div id="altitude-container">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <h2> Horizon </h2>
+                <div id="horizon-container">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <h2> Vertical Speed </h2>
+                <div id="vertical-speed-container">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <h2> Turn </h2>
+                <div id="turn-container"></div>
+            </div>
+        </div>
+        <div class="row row-standard">
+                <div class="col-md-offset-4 col-md-4">
+                    <h1>Helicopter specific </h1>
+                </div>
+            </div>
+        <div class="row row-standard">
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <h2> Stick </h2>
+                <div id="stick-container"></div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <h2> Pedal </h2>
+                <div id="pedal-container"></div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+                <h2> Collective </h2>
+                <div id="collective-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="../dist/flight-indicator.js"></script>
+    <script src="jean-navbar.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
